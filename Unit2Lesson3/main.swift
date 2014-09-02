@@ -21,7 +21,7 @@ println(myTurboCar.turboCarSpecs("B", aSpoiler: true))
 
 
 //This is the third category of cars: a Hybrid Car
-var myHybridCar = HybridCar(nameOfCar: "Hybrid Car", colorOfcar: "Yellow", horsepowerOfCar: 100, automaticOptionOfCar: true)
+var myHybridCar = HybridCar(nameOfCar: "Lexus", colorOfcar: "Yellow", horsepowerOfCar: 100, automaticOptionOfCar: true)
 println()
 
 var myPickupTruck = PickupTruck(nameOfCar: "Pickup", colorOfcar: "Green", horsepowerOfCar: 350, automaticOptionOfCar: true)

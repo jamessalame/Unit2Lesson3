@@ -13,10 +13,19 @@ class TurboCar: Car {
     
     func turboCarSpecs (aTurboRating: String, aSpoiler: Bool) -> String{
         
+        var turboRating = 2
+        
         self.turboRating = aTurboRating
         self.stabilizingSpoiler = (aSpoiler ? "a" : "no")
         
+        self.foo()
+        
         return ("In addition, this turbo car has a Turbo rating of \(self.turboRating) and \(self.stabilizingSpoiler) spoiler")
         
+        
+    }
+    
+    func foo () {
+        println("foo")
     }
 }
